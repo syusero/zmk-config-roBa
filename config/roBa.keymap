@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp TAB       &trans        &trans        &trans        &trans        &trans      &kp F13  &kp F6        &mkp LCLK     &mkp RCLK     &kp F9        &kp DELETE
-&kp CAPS      &trans        &trans        &trans        &trans        &trans      &trans   &trans        &trans        &trans        &trans        &kp F11
-&trans        &trans        &trans        &trans        &trans        &trans      &trans   &trans                                                  &kp F12
+&kp NUMBER_1             &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp TAB                  &trans        &trans        &trans        &trans        &trans      &kp F13  &kp F6        &mkp LCLK     &mkp RCLK     &kp F9        &kp DELETE
+&kp LANG_ZENKAKUHANKAKU  &trans        &trans        &trans        &trans        &trans      &trans   &trans        &trans        &trans        &trans        &kp F11
+&trans                   &trans        &trans        &trans        &trans        &trans      &trans   &trans                                                  &kp F12
             >;
         };
 
