@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q                 &kp W         &kp E         &kp R                        &kp T                                               &kp Y                   &kp U  &lt 5 I    &kp O    &kp P
-&kp A                 &kp S         &kp D         &kp F                        &kp G           &msc MOVE_Y(5)      &kp COLON       &kp H                   &kp J  &kp K      &kp L    &kp BSPC
-&mt LEFT_SHIFT Z      &kp X         &kp C         &kp V                        &kp B           &kp AT_SIGN         &kp SEMICOLON   &kp N                   &kp M  &kp COMMA  &kp DOT  &kp KP_ENTER
-&kp LC(LEFT_CONTROL)  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &kp LS(LSHIFT)  &kp SPACE           &kp UNDERSCORE  &lt_to_layer_0 2 ENTER                             &kp SLASH
+&kp Q                 &kp W         &kp E         &kp R                        &kp T                                                   &kp Y          &kp U  &lt 5 I    &kp O    &kp P
+&kp A                 &kp S         &kp D         &kp F                        &kp G           &msc MOVE_Y(5)      &kp COLON           &kp H          &kp J  &kp K      &kp L    &kp ENTER
+&mt LEFT_SHIFT Z      &kp X         &kp C         &kp V                        &kp B           &kp AT_SIGN         &kp SEMICOLON       &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LC(LEFT_CONTROL)  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &kp LS(LSHIFT)  &kp SPACE           &lt_to_layer_0 2 A  &kp BACKSPACE                             &kp UNDER
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
