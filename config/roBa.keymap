@@ -83,7 +83,7 @@
 &kp Q                 &kp W         &kp E         &kp R                        &kp T                                                   &kp Y          &kp U  &lt 5 I    &kp O    &kp P
 &kp A                 &kp S         &kp D         &kp F                        &kp G           &msc MOVE_Y(5)      &kp COLON           &kp H          &kp J  &kp K      &kp L    &kp ENTER
 &mt LEFT_SHIFT Z      &kp X         &kp C         &kp V                        &kp B           &kp AT_SIGN         &kp SEMICOLON       &kp N          &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LC(LEFT_CONTROL)  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &kp LS(LSHIFT)  &kp SPACE           &lt_to_layer_0 2 A  &kp BACKSPACE                             &kp UNDER
+&kp LC(LEFT_CONTROL)  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &kp LS(LSHIFT)  &kp SPACE           &lt_to_layer_0 2 A  &kp BACKSPACE                             &kp LS(EQUAL)
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESC            &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
-&kp TAB            &trans        &trans        &kp MINUS     &trans        &trans      &kp F13  &kp F6        &mkp LCLK     &mkp RCLK     &kp F9        &kp ENTER
-&kp LANG_HIRAGANA  &trans        &trans        &trans        &trans        &trans      &trans   &trans        &trans        &trans        &trans        &kp SLASH
-&trans             &trans        &trans        &trans        &trans        &trans      &trans   &kp DELETE                                              &kp F12
+&kp ESC       &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                       &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
+&kp TAB       &trans        &trans        &kp MINUS     &kp MINUS     &trans      &kp F13  &kp F6        &mkp LCLK     &mkp RCLK     &kp F9        &kp ENTER
+&kp CAPSLOCK  &trans        &trans        &trans        &trans        &trans      &trans   &trans        &trans        &trans        &trans        &kp SLASH
+&trans        &trans        &trans        &trans        &trans        &trans      &trans   &kp DELETE                                              &kp F12
             >;
         };
 
